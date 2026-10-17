@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TANUJA.exe — Beyond the Profile</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body>
+<div id="boot" role="status"><div style="color:var(--cy);font-size:1.3rem">INITIALIZING TANUJA.exe</div><div class="bar"><i id="bi"></i></div><div id="bm" class="mu">Loading creativity</div></div>
+
+<nav aria-label="Main"><div class="wrap">
+<button class="logo" id="logo" aria-label="TANUJA.exe logo (terminal)">&gt;_ TANUJA.exe</button>
+<a href="#/" data-r="home">Home</a><a href="#/projects" data-r="projects">Projects</a><a href="#/projects#contact" id="navc">Contact</a>
+<button class="nb" id="fxt" aria-pressed="true" aria-label="Toggle sparkle effects">✨ FX</button><button class="nb" id="theme" aria-label="Toggle light or dark theme">◐ Theme</button>
+</div></nav>
+
+<main>
+<!-- PAGE 1 -->
+<div class="page" id="p-home"><div class="wrap">
+<section class="grid2">
+<div><p class="mu" style="font-family:'Space Grotesk'">TANUJA.exe — A Human Behind the Code</p>
+<h1 class="grad">Hello, Human.</h1>
+<h2><span id="typed"></span><span class="cursor">&nbsp;</span></h2>
+<p class="mu" id="sub" style="min-height:3.4em"></p>
+<div class="row" style="margin-top:14px"><button class="btn" id="exp">EXPLORE MY UNIVERSE</button><button class="btn ghost" id="est">ESTABLISH CONNECTION</button></div></div>
+<div class="card idc tilt" id="idc"><div class="beam" id="beam"></div>
+<div class="row" style="align-items:center"><div class="avatar" aria-hidden="true">TA</div><div><h3>Tanuja Adhav</h3><span class="on">SYSTEM ONLINE</span></div></div>
+<p>Diploma IT student · aspiring software developer · AI/ML explorer · robotics &amp; UI design enthusiast.</p>
+<button class="btn" id="scan">RUN IDENTITY SCAN</button>
+<div id="scanout" aria-live="polite"></div></div>
+</section>
+<section class="reveal"><h2>Skill Constellation</h2><p class="mu">Click a node to connect it to a project from my resume.</p>
+<div class="grid2" style="align-items:start"><div class="cons" id="cons"></div>
+<div class="card" aria-live="polite"><h3 id="sk-t">Select a node</h3><p id="sk-d" class="mu">Nodes link to the two projects: 3D object detection and the Arduino system.</p><button class="btn ghost" id="sk-r">RESET</button></div></div></section>
+</div></div>
+
+<!-- PAGE 2 -->
+<div class="page" id="p-projects"><div class="wrap">
+<section><h1 class="grad">Welcome to my Innovation Lab.</h1><p class="mu">Ideas are experiments waiting to happen.</p>
+<div class="grid2" style="align-items:stretch;margin-top:20px" id="pc"></div></section>
+
+<section class="reveal"><h2>Education Timeline</h2><div class="tl">
+<div><h3>SSC — 91.60%</h3><p class="mu">Dr. Babasaheb Ambedkar Mahavidyalay, Sonai</p></div>
+<div><h3>Diploma in Information Technology</h3><p class="mu">Amrutvahini Polytechnic, Sangamner · resume-reported score 94.17%</p></div>
+<div><h3>Currently pursuing further education</h3><p class="mu">Year ranges are not shown because they were not supplied to me.</p></div></div></section>
+
+<section class="reveal"><h2>Skill Explorer</h2><div class="row" id="groups"></div><div class="row" id="chips" style="margin:12px 0"></div>
+<div class="card" aria-live="polite"><p id="chipd" class="mu">Pick a group or a chip.</p></div><button class="btn ghost" id="fr" style="margin-top:10px">RESET FILTER</button>
+<p class="mu" style="margin-top:14px">Soft skills: Teamwork · Time management · Leadership · Effective communication · Critical thinking<br>Languages: English · Hindi · Marathi</p></section>
+
+<section class="reveal" id="contact" style="text-align:center"><h2>Ready to connect?</h2>
+<button class="btn" id="sig">SEND A SIGNAL</button>
+<div class="card env" id="env" aria-live="polite"></div></section>
+
+<section class="reveal"><div class="card"><h2>Leave a message</h2><p class="mu">Local demo: nothing is sent to a server. After submitting, you can send it by email.</p>
+<form id="f" novalidate><label for="fn">Name</label><input id="fn" autocomplete="name"><div class="err" id="en"></div>
+<label for="fe">Email</label><input id="fe" type="email" autocomplete="email"><div class="err" id="ee"></div>
+<label for="fm">Message</label><textarea id="fm" rows="4"></textarea><div class="err" id="em"></div>
+<button class="btn" id="fb" type="submit" style="margin-top:8px">SUBMIT TO THE VOID</button></form>
+<div id="fres" style="display:none;margin-top:14px;padding:16px;border-radius:12px;background:rgba(93,235,255,.15);border:1px solid var(--cy)" aria-live="polite"></div></div>
+<div style="margin-top:16px"><button class="btn ghost" id="cv">DOWNLOAD RESUME</button> <span class="mu" id="cvn"></span></div></section>
+
+<section class="reveal" style="text-align:center" id="fin"><h2>THERE IS MORE THAN MEETS THE CODE.</h2>
+<button class="btn" id="unl">UNLOCK NEXT LEVEL</button>
+<div class="term" id="fint" style="display:none;margin-top:16px">&gt; Curiosity is my favourite programming language.<br><button class="btn ghost" id="finx" style="margin-top:10px">CLOSE</button></div></section>
+</div></div>
+</main>
+
+<div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="ovt"><div class="card" id="ovc"></div></div>
+<div class="ov" id="sec" role="dialog" aria-modal="true" aria-label="Secret"><div class="card term" style="background:#050812;max-width:480px"><button class="x" data-close aria-label="Close secret">✕</button><p>&gt; SECRET UNLOCKED: The best ideas begin with curiosity.<span class="cursor">&nbsp;</span></p></div></div>
+<div class="ov" id="gm" role="dialog" aria-modal="true" aria-labelledby="gtitle"><div class="card" style="max-width:520px;position:relative;overflow:hidden">
+<button class="x" data-close aria-label="Close game">✕</button><h2 id="gtitle">CHOOSE A GAME</h2>
+<div id="gmenu" class="row"><button class="btn" data-game="catch" data-t="SIGNAL CATCHER">🎯 Signal Catcher</button><button class="btn" data-game="whack" data-t="BUG WHACK">🐞 Bug Whack</button><button class="btn" data-game="mem" data-t="SKILL MEMORY">🧠 Skill Memory</button></div>
+<canvas id="gc" width="480" height="300" style="display:none;width:100%;border:1px solid var(--cy);border-radius:12px;background:#0B1020;touch-action:none" aria-label="Catch falling skills with the bar. Use arrow keys or pointer."></canvas>
+<div id="gwhack" style="display:none"></div><div id="gmem" style="display:none"></div>
+<p id="gs" aria-live="polite" class="mu">Pick a game</p>
+<div class="row"><button class="btn ghost" id="gback">← ALL GAMES</button><button class="btn ghost" id="gskip">SKIP TO PROJECTS</button></div>
+<div class="stkw" id="gstk" aria-live="polite"></div></div></div>
+<div class="ov" id="tv" role="dialog" aria-modal="true" aria-labelledby="tvt"><div class="card" style="max-width:560px"><button class="x" data-close aria-label="Close travel">✕</button><h2 id="tvt"></h2><p id="tvd" class="mu"></p>
+<p><strong>Choose how this skill travels:</strong></p><div class="row" id="tvb"></div><div class="road"><span id="veh" aria-hidden="true"></span></div><p id="tvm" aria-live="polite"></p></div></div>
+<div class="ov" id="cg" role="dialog" aria-modal="true" aria-labelledby="cgt"><div class="card" style="max-width:460px;text-align:center"><button class="x" data-close aria-label="Close">✕</button><h2 id="cgt">Wait a moment 🧘</h2><p><strong>First contact yourself, then try to contact us.</strong></p><p class="mu">Take a breath and think about what you want to say. Ready?</p><button class="btn" id="cgo">I CONTACTED MYSELF — CONTINUE</button></div></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="script.js"></script></body></html>
